@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WorkingWithEFCore
 {
-    internal class Product
+    public class Product
     {
         public int ProductId { get; set; }
         [Required]
